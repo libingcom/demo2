@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+	     <script src="jquery-1.11.1.min.js"></script>
+	     <script src="myCookie.js"></script>
+	     <script src="style.js"></script>
+	</head>
+	<body>
+		<div id="logo">
+			<h1><img src="img/logo.jpg"/></h1>
+		</div>
+		
+		<div class="main" id="mainContent">
+			<div class="trolley" id="divCart" style="" module="202048">
+			    <table width="100%" border="0" cellspacing="0" cellpadding="0" id="tbCartList" >
+			    	<tbody>
+			    		<tr>
+			    			<th colspan="2" width="98"><label><input id="cbseletall_top" type="checkbox" name="" value="" >全选</label></th>
+			    			<th width="560"><span>商品</span></th>
+			    			<th width="125">单价( 元）</th>
+			    			<th width="150">数量</th><th width="105">小计（元）</th><th width="102">操作</th>
+			    		</tr>
+			    		<tr id="tr_7016117362_7019188592">
+			    			<td width="60"><input type="checkbox" ></td>
+			    			<td width="560" colspan="2">
+			    				<a ><img src="img/rongyao10.jpg" alt="" width="80" height="80"><p><font></font><b>华为（HUAWEI） 荣耀 v10 全网通4G智能手机 极光蓝 4GRAM+64GROM</b></p><strong>颜色：黄绿色<br>款式：共同</strong></a>
+			    				<input type="hidden" id="hidName_7016117362_7019188592" value="华为（HUAWEI） 荣耀 v10 全网通4G智能手机 极光蓝 4GRAM+64GROM">
+			    				<input type="hidden" id="hidNum_7016117362_7019188592" value="0">
+			    				
+			    				<input type="hidden" id="hidPrice_7016117362_7019188592" value="1432">
+			    				<input type="hidden" id="hidlimit_7016117362_7019188592" value="99"><input type="hidden" id="hidPriceUnit_7016117362_7019188592" value="2499">
+			    			</td>
+			    			<td width="125"><span>2499.00</span></td>
+			    			<td width="150">
+			    				<label>
+			    					<i style="cursor:pointer" id="i_sub_7016117362_7019188592" >-</i>
+			    					<input id="txtSkuNum_7016117362_7019188592"  type="tel">
+			    					<i style="cursor:pointer" id="i_add_7016117362_7019188592" >+</i>
+			    				</label><br>
+			    				<span class="s2">有货</span>
+			    			</td>
+			    			<td width="105"><span class="s1 gj">0.00</span></td>
+			    			<td width="102"><a style="cursor:pointer" class="del" >删除</a></td>
+			    		</tr>
+			    	</tbody>
+			    </table>
+			</div>
+		</div>
+		
+		<div class="main" id="mainContent">
+			<div class="trolley" id="divCart" style="" module="202048">
+			    <table width="100%" border="0" cellspacing="0" cellpadding="0" id="tbCartList" ><tbody><tr id="tr_7016117362_7019188592"><td width="60"><input type="checkbox" ></td><td width="560" colspan="2"><a ><img src="img/rongyao10.jpg" alt="" width="80" height="80"><p><font></font><b>华为（HUAWEI） 荣耀 v10 全网通4G智能手机 极光蓝 4GRAM+64GROM</b></p><strong>颜色：黄绿色<br>款式：共同</strong></a><input type="hidden" id="hidName_7016117362_7019188592" value="华为（HUAWEI） 荣耀 v10 全网通4G智能手机 极光蓝 4GRAM+64GROM"><input type="hidden" id="hidNum_7016117362_7019188592" value="0"><input type="hidden" id="hidPrice_7016117362_7019188592" value="1432"><input type="hidden" id="hidlimit_7016117362_7019188592" value="99"><input type="hidden" id="hidPriceUnit_7016117362_7019188592" value="3299"></td><td width="125"><span>3299.00</span></td><td width="150"><label><i style="cursor:pointer" id="i_sub_7016117362_7019188592" >-</i><input id="txtSkuNum_7016117362_7019188592"  type="tel"><i style="cursor:pointer" id="i_add_7016117362_7019188592" >+</i></label><br><span class="s2">有货</span></td><td width="105"><span class="s1 gj">0.00</span></td><td width="102"><a style="cursor:pointer" class="del" >删除</a></td></tr></tbody></table>
+			    <h3 id="h3_invalid" style="display: none;">您的购物车内已有<span id="spinvalidnum">0</span>款商品失效<a id="btnClear" style="cursor: pointer; display: none;" num="202048-1">清除失效商品</a></h3>
+			    <table width="100%" border="0" cellspacing="0" cellpadding="0" id="tbCartInvalid" module="202049"></table>
+			    <div class="ft" id="ft_01" style="left: 0px; bottom: 0px;">
+			        <div class="ft_nei">
+			            <span>
+			                已选择<i id="sp_total">0</i>件商品
+			                <font id="total_money"></font> <font id="discount_money"></font><font>
+			                    应付款：<b id="pay_money">￥0.00</b>
+			                </font>
+			                <a id="btnSubmit" style="cursor:pointer" num="202048-2">去结算</a>
+			            </span>
+			            <label><input id="cbseletall_foot" type="checkbox" value="" onclick="CartInfo.SelectAll(this)" num="202048-input-1">全选</label><a id="btnDel" style="cursor:pointer;" num="202048-3">删除选中的商品</a>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	//商品列表
+	
+</script>
